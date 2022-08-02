@@ -1,0 +1,12 @@
+
+name: Jovax
+on:
+ workflow_dispach;
+ 
+ jobs:
+ build:
+ runs=on: ubunto-latest
+ steps:
+ -name Run a one-line script
+ run: acho Hello, Word!
+ 
